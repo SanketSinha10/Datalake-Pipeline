@@ -32,7 +32,7 @@ def _get_spark_session_and_glue_job(glue_args):
 
 
 def _commit_job(job):
-    job.commit()
+    job.commit() 
 
 
 def _get_glue_args(cli_args):
