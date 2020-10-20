@@ -21,4 +21,4 @@ if __name__ == '__main__':
     try:
         unittest.main()
     except Exception:
-        MockedPostgresTest().tearDownClass()
+        MockedPostgresTest().tearDownClass() 
