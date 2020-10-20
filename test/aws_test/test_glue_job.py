@@ -33,7 +33,7 @@ class TestGlueJob(unittest.TestCase):
         cls.process = subprocess.Popen(
             ['moto_server', 's3'],
             stdout=subprocess.PIPE,
-            shell=True,
+            shell=True, 
             creationflags=subprocess.CREATE_NEW_PROCESS_GROUP
         )
 
