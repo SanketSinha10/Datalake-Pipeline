@@ -74,4 +74,4 @@ def identify_new_records(spark: SparkSession, old_dataframe: DataFrame, new_data
         new_pk_records_df: DataFrame = spark.sql(new_pks_query).dropDuplicates()
         updates_df: DataFrame = spark.sql(updates_query).dropDuplicates()
 
-        return new_pk_records_df.union(updates_df)
+        return new_pk_records_df.union(updates_df) 
