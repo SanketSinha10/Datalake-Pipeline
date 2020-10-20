@@ -16,7 +16,7 @@ Data transformation simplified for any Data platform.
 7. Has Unit test cases designed on function/method level & measures
   source code coverage
 8. Has information about delpoying to higher environments
-9. Has API documentation for customization & enhancement
+9. Has API documentation for customization & enhancement 
 
 `Enhancements:` In progress -
 1. Integrate Audit and logging - Define Error codes, log process failures, Audit progress & runtime information
