@@ -1,5 +1,5 @@
 # Datalake ETL Pipeline
-Data transformation simplified for any Data platform.
+Data transformation simplified for any Data platform. 
 
 `Features:` The package has complete ETL process - 
 1. Uses metadata, transformation & data model information to design ETL pipeline
