@@ -32,7 +32,7 @@ class AwsS3Test(unittest.TestCase):
         )
 
         # create an S3 bucket.
-        cls.s3_resource_obj.create_bucket(Bucket="bucket")
+        cls.s3_resource_obj.create_bucket(Bucket="bucket") 
 
         # # configure pyspark to use hadoop-aws module. os.environ[ "PYSPARK_SUBMIT_ARGS" ] = '--packages
         # "org.apache.hadoop:hadoop-aws:2.7.3" --packages "org.apache.httpcomponents:httpclient:4.2.5" ' \
